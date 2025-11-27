@@ -1,287 +1,276 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Game Tracker — Reseñas de Videojuegos</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-   <header class="header">
+  <header class="header container">
+    <img src="IMAGENES/LOGO.jpeg" alt="Logo" class="logo-img">
 
-    <img src="IMAGENES/LOGO.jpeg" alt="">
-    <div class="menu container">
-        <a href="a" class="logo">logo</a>
-        <input type="checkbox" id="menu">
-        <label for="menu">
-            <img src="IMAGENES/menu.jpeg" class="menu-icono" alt="">
-        </label>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-        <div>
-            <ul>
-                <li class="sunmenu">
-                    <img src="IMAGENES/fav.jpeg" id="img-favoritos" alt="favoritos">
-                    <div id="favoritos">
-                        <table id="lista-favoritos">
-                            <thead>
-                                <tr>
-                                    <th>Imagen</th>
-                                    <th>Nombre</th>
-                                    <th>Precio</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <a href="#" id="Borrar Favorito" class="btn-3">Borrar Favorito</a>
-                    </div>
-                </li>
-            </ul>
+    <div class="menu">
+      <a href="#" class="logo-text">Game Tracker</a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-label">
+        <img src="IMAGENES/menu.jpeg" class="menu-icono" alt="menu">
+      </label>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="sunmenu">
+        <img src="IMAGENES/fav.jpeg" id="img-favoritos" alt="favoritos">
+        <div id="favoritos" class="favoritos">
+          <table id="lista-favoritos">
+            <thead>
+              <tr>
+                <th>Imagen</th><th>Nombre</th><th>Acción</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <a href="#" id="borrar-favoritos" class="btn-3">Borrar Favoritos</a>
         </div>
-
+      </div>
     </div>
 
-    <div class="header-content container">
-
-        <div class="header-txt">
-            <h1><span>Bienvenido</span>Disfruta de nuestras reseñas y diferentes videojuegos</h1>
-            <p>
-                ✨ Descubre el poder de tu voz gamer. En nuestro espacio de reseñas, cada opinión cuenta y cada experiencia se convierte en inspiración. Aquí no solo calificas un videojuego: lo revives, lo analizas y lo compartes con una comunidad que vibra contigo. Deja tu huella digital, inspira a otros jugadores y transforma tu pasión en influencia. Porque en Game Tracker, tus palabras también juegan. 🎮
-            </p>
-            <a href="#" class="btn-1">Informacion</a>
-
-        </div>
-        <div class="header-img">
-            <img src="IMAGENES/presentacion.jpeg" alt="">
-        </div>
-
+    <div class="header-content">
+      <div class="header-txt">
+        <h1><span>Bienvenido</span> — Disfruta de nuestras reseñas y videojuegos</h1>
+        <p>✨ Descubre el poder de tu voz gamer. En nuestro espacio de reseñas, cada opinión cuenta y cada experiencia se convierte en inspiración. Deja tu huella digital en Game Tracker. 🎮</p>
+        <a href="#" class="btn-1">Información</a>
+      </div>
+      <div class="header-img">
+        <img src="IMAGENES/presentacion.jpeg" alt="Presentación">
+      </div>
     </div>
+  </header>
 
-   </header>
+  <!-- CLÁSICOS MODERNOS (mejorado) -->
+  <section class="clasicos container">
+    <h2>Clásicos Modernos</h2>
+    <p>Una selección de videojuegos que se convirtieron en leyenda: historias, personajes y experiencias que transformaron la forma de jugar.</p>
 
+    <div class="clasicos-grid" id="clasicos-grid">
+      <!-- Tarjetas: puedes duplicar/editar las cards -->
+      <article class="card-classic">
+        <img src="IMAGENES/GTA V.jpeg" alt="GTA V">
+        <h3>GTA V</h3>
+      </article>
 
+      <article class="card-classic">
+        <img src="IMAGENES/CALL OF DUTY.jpeg" alt="Call of Duty">
+        <h3>Call of Duty</h3>
+      </article>
 
-   <section class="Clasicos Modernos">
-    <h2>Clasicos Modernos</h2>
-    <p>
-        Una selección de videojuegos que se convirtieron en leyenda: Historias, personajes y experiencias que transformaron la forma de jugar de cada uno de nosotros.
-    </p>
+      <article class="card-classic">
+        <img src="IMAGENES/MINECRAFT.jpeg" alt="Minecraft">
+        <h3>Minecraft</h3>
+      </article>
 
-    <div class="Clasicos Modern">
-        <div class="Juego 1">
-            <img src="IMAGENES/GTA V.jpeg" alt="">
-            <h3>GTA V</h3>
-        </div>
-
-        <div class="Clasicos Modern">
-        <div class="Juego 1">
-            <img src="IMAGENES/CALL OF DUTY.jpeg" alt="">
-            <h3>CALL OF DUTY</h3>
-        </div>
-
-        <div class="Clasicos Modern">
-        <div class="Juego 1">
-            <img src="IMAGENES/MINECRAFT.jpeg" alt="">
-            <h3>MINECRAFT</h3>
-        </div>
-
-        <div class="Clasicos Modern">
-        <div class="Juego 1">
-            <img src="IMAGENES/FORNITE.jpeg" alt="">
-            <h3>FORNITE</h3>
-        </div>
-
+      <article class="card-classic">
+        <img src="IMAGENES/FORNITE.jpeg" alt="Fortnite">
+        <h3>Fortnite</h3>
+      </article>
     </div>
+  </section>
 
-
-
-   </section>
-
-   <section class="info">
+  <!-- INFO -->
+  <section class="info">
     <div class="info-content container">
-        <div class="info-img">
-            <img src="IMAGENES/personas.jpeg" alt="">
-
-        </div>
-        <div class="info-txt">
-            <h2>LA MEJOR EXPERIENCIA GAMER</h2>
-            <p>
-                En Game Tracker nos enfocamos en ofrecerte una experiencia completa: reseñas honestas, calificaciones reales y una comunidad apasionada por los videojuegos. Cada detalle está pensado para que descubras nuevos títulos con confianza y disfrutes al máximo tu pasión gamer.
-            </p>
-            <a href="#" class="btn-1">Informacion</a>
-        </div>
-
+      <div class="info-img">
+        <img src="IMAGENES/personas.jpeg" alt="">
+      </div>
+      <div class="info-txt">
+        <h2>LA MEJOR EXPERIENCIA GAMER</h2>
+        <p>En Game Tracker nos enfocamos en reseñas honestas, calificaciones reales y una comunidad apasionada por los videojuegos.</p>
+        <a href="#" class="btn-1">Información</a>
+      </div>
     </div>
+  </section>
 
-   </section>
-
-   <main class="products container">
+  <!-- VIDEOJUEGOS - productos -->
+  <main class="products container">
     <h2>VIDEOJUEGOS</h2>
+
     <div class="box-container" id="lista-1">
-
-        <div class="box">
-            <img src="IMAGENES/FIFA24.jpeg" alt="">
-            <div class="product-txt">
-                <h3>FIFA24</h3>
-                <p>Excelentes graficos y una experiencia increible</p>
-                <p class="Descripcion">Es un simulador de fútbol que permite jugar partidos, torneos y modos carrera con equipos reales. Destaca por sus gráficos realistas, movimientos naturales y la emoción del deporte más popular del mundo.</p>
-                <a href="#" class="Agregar a Favorito btn-3" data-id="1">Agregar a Favoritos</a>
-            </div>
+      <!-- Boxes visibles por defecto -->
+      <div class="box">
+        <img src="IMAGENES/FIFA24.jpeg" alt="">
+        <div class="product-txt">
+          <h3>FIFA24</h3>
+          <p>Excelentes gráficos y una experiencia increíble</p>
+          <p class="Descripcion">Simulador de fútbol con equipos reales y movimiento realista.</p>
+          <a href="#" class="btn-3 favorito-btn" data-id="1" data-title="FIFA24" data-img="IMAGENES/FIFA24.jpeg">Agregar a Favoritos</a>
         </div>
+      </div>
 
-         <div class="box">
-            <img src="IMAGENES/GTA V.jpeg" alt="">
-            <div class="product-txt">
-                <h3>GTA V</h3>
-                <p>Acción Sin Limites</p>
-                <p class="Descripcion">Es un videojuego de mundo abierto donde los jugadores exploran la ciudad de Los Santos. Combina acción, conducción y misiones delictivas con una historia de tres protagonistas entre el crimen y la ambición.</p>
-                <a href="#" class="Agregar a Favorito btn-3" data-id="2">Agregar a Favoritos</a>
-            </div>
+      <div class="box">
+        <img src="IMAGENES/GTA V.jpeg" alt="">
+        <div class="product-txt">
+          <h3>GTA V</h3>
+          <p>Acción sin límites</p>
+          <p class="Descripcion">Mundo abierto en Los Santos con misiones y conducción.</p>
+          <a href="#" class="btn-3 favorito-btn" data-id="2" data-title="GTA V" data-img="IMAGENES/GTA V.jpeg">Agregar a Favoritos</a>
         </div>
+      </div>
 
-         <div class="box">
-            <img src="IMAGENES/CALL OF DUTY.jpeg" alt="">
-            <div class="product-txt">
-                <h3>CALL OF DUTY</h3>
-                <p>Excelentes graficos y una experiencia increible</p>
-                <p class="Descripcion">Es un juego de disparos en primera persona ambientado en conflictos bélicos. Los jugadores asumen el papel de soldados en intensas misiones llenas de estrategia, acción y trabajo en equipo.</p>
-                <a href="#" class="Agregar a Favorito btn-3" data-id="3">Agregar a Favoritos</a>
-            </div>
+      <div class="box">
+        <img src="IMAGENES/CALL OF DUTY.jpeg" alt="">
+        <div class="product-txt">
+          <h3>CALL OF DUTY</h3>
+          <p>Combates intensos</p>
+          <p class="Descripcion">Shooter en primera persona con acción y estrategia.</p>
+          <a href="#" class="btn-3 favorito-btn" data-id="3" data-title="CALL OF DUTY" data-img="IMAGENES/CALL OF DUTY.jpeg">Agregar a Favoritos</a>
         </div>
+      </div>
 
-         <div class="box">
-            <img src="IMAGENES/SPIDERMAN.jpeg" alt="">
-            <div class="product-txt">
-                <h3>SPIDERMAN MARVEL</h3>
-                <p>Aventura Epica</p>
-                <p class="Descripcion">Es un juego de acción y aventura donde controlas a Spider-Man mientras proteges la ciudad de Nueva York. Incluye combates dinámicos, misiones narrativas y un sistema de movimiento fluido entre edificios.</p>
-                <a href="#" class="Agregar a Favorito btn-3" data-id="4">Agregar a Favoritos</a>
-            </div>
+      <div class="box">
+        <img src="IMAGENES/SPIDERMAN.jpeg" alt="">
+        <div class="product-txt">
+          <h3>SPIDERMAN MARVEL</h3>
+          <p>Aventura épica</p>
+          <p class="Descripcion">Combates dinámicos y movimientos entre edificios.</p>
+          <a href="#" class="btn-3 favorito-btn" data-id="4" data-title="SPIDERMAN" data-img="IMAGENES/SPIDERMAN.jpeg">Agregar a Favoritos</a>
         </div>
+      </div>
 
-         <div class="box">
-            <img src="IMAGENES/FORNITE.jpeg" alt="">
-            <div class="product-txt">
-                <h3>FORNITE</h3>
-                <p>Batallas Estratégicas</p>
-                <p class="Descripcion">Es un juego de supervivencia y construcción donde 100 jugadores compiten para ser el último en pie. Combina disparos, creatividad y eventos en línea en un entorno colorido y cambiante.</p>
-                <a href="#" class="Agregar a Favorito btn-3" data-id="5">Agregar a Favoritos</a>
-            </div>
+      <div class="box hidden">
+        <img src="IMAGENES/FORNITE.jpeg" alt="">
+        <div class="product-txt">
+          <h3>FORNITE</h3>
+          <p>Batallas estratégicas</p>
+          <p class="Descripcion">Construcción y supervivencia en partidas multijugador.</p>
+          <a href="#" class="btn-3 favorito-btn" data-id="5" data-title="FORNITE" data-img="IMAGENES/FORNITE.jpeg">Agregar a Favoritos</a>
         </div>
+      </div>
 
-         <div class="box">
-            <img src="IMAGENES/MINECRAFT.jpeg" alt="">
-            <div class="product-txt">
-                <h3>FIFA24</h3>
-                <p>Creatividad Infinita</p>
-                <p class="Descripcion">Es un videojuego de construcción y exploración en un mundo abierto formado por bloques. Los jugadores pueden crear estructuras, recolectar recursos y sobrevivir enfrentando criaturas o jugando en modo libre.</p>
-                <a href="#" class="Agregar a Favorito btn-3" data-id="6">Agregar a Favoritos</a>
-            </div>
+      <div class="box hidden">
+        <img src="IMAGENES/MINECRAFT.jpeg" alt="">
+        <div class="product-txt">
+          <h3>MINECRAFT</h3>
+          <p>Creatividad infinita</p>
+          <p class="Descripcion">Construcción y exploración en mundo por bloques.</p>
+          <a href="#" class="btn-3 favorito-btn" data-id="6" data-title="MINECRAFT" data-img="IMAGENES/MINECRAFT.jpeg">Agregar a Favoritos</a>
         </div>
+      </div>
 
-         <div class="box">
-            <img src="IMAGENES/SUPERMARIO.jpeg" alt="">
-            <div class="product-txt">
-                <h3>SUPER MARIO BROS WONDER</h3>
-                <p>Aventura Épica</p>
-                <p class="Descripcion">Es un juego de plataformas donde Mario y sus amigos recorren coloridos niveles llenos de obstáculos, enemigos y sorpresas mágicas. Ideal para jugadores de todas las edades.</p>
-                <a href="#" class="Agregar a Favorito btn-3" data-id="7">Agregar a Favoritos</a>
-            </div>
+      <div class="box hidden">
+        <img src="IMAGENES/SUPERMARIO.jpeg" alt="">
+        <div class="product-txt">
+          <h3>SUPER MARIO BROS WONDER</h3>
+          <p>Aventura épica</p>
+          <p class="Descripcion">Plataformas coloridas y desafíos para todas las edades.</p>
+          <a href="#" class="btn-3 favorito-btn" data-id="7" data-title="SUPER MARIO" data-img="IMAGENES/SUPERMARIO.jpeg">Agregar a Favoritos</a>
         </div>
+      </div>
 
     </div>
 
-    <div class="btn-2" id="load-more">Cargar mas</div>
+    <div class="btn-2" id="load-more">Cargar más</div>
+  </main>
 
-   </main>
+  <!-- === SECCIÓN DE RESEÑAS INTERACTIVAS (OPCIÓN D: entre VIDEOJUEGOS y APP) === -->
+  <section class="reviews-section container" id="reviews-section">
+    <h2>Reseñas y Calificaciones</h2>
+    <p>Selecciona tu juego favorito, escribe tu reseña, puntúa y edita cuando quieras.</p>
 
+    <div class="reviews-grid" id="reviews-grid">
+      <!-- Tres reseñas iniciales (plantilla reproducible) -->
+      <div class="review-card" data-game="FIFA24">
+        <img src="IMAGENES/FIFA24.jpeg" alt="FIFA24">
+        <h3>FIFA24</h3>
+        <div class="stars" role="radiogroup" aria-label="Puntuación FIFA24"></div>
+        <textarea class="comment" placeholder="Escribe tu reseña sobre FIFA24..."></textarea>
+        <div class="review-actions">
+          <button class="edit-btn">✏️ Editar</button>
+          <button class="send-btn">Enviar</button>
+        </div>
+      </div>
 
-   <section class="app container">
+      <div class="review-card" data-game="GTAV">
+        <img src="IMAGENES/GTA V.jpeg" alt="GTA V">
+        <h3>GTA V</h3>
+        <div class="stars" role="radiogroup" aria-label="Puntuación GTA V"></div>
+        <textarea class="comment" placeholder="Escribe tu reseña sobre GTA V..."></textarea>
+        <div class="review-actions">
+          <button class="edit-btn">✏️ Editar</button>
+          <button class="send-btn">Enviar</button>
+        </div>
+      </div>
 
+      <div class="review-card" data-game="COD">
+        <img src="IMAGENES/CALL OF DUTY.jpeg" alt="Call of Duty">
+        <h3>Call of Duty</h3>
+        <div class="stars" role="radiogroup" aria-label="Puntuación Call of Duty"></div>
+        <textarea class="comment" placeholder="Escribe tu reseña sobre Call of Duty..."></textarea>
+        <div class="review-actions">
+          <button class="edit-btn">✏️ Editar</button>
+          <button class="send-btn">Enviar</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="add-review" class="add-review">➕ Agregar reseña</div>
+  </section>
+
+  <!-- APP -->
+  <section class="app container">
     <div class="app-txt">
-        <h2>Descarga nuestra app descubre nuevas reseñas</h2>
-        <p>
-            ¡No te quedes atrás! Descarga la app y descubre miles de reseñas de gamers como tú. Comparte tus experiencias, comenta y descubre los títulos más populares.
-        </p>
-        <div class="descarga">
-            <img src="IMAGENES/store1.png" alt="">
-            <img src="IMAGENES/store2.png" alt="">
-        </div>
+      <h2>Descarga nuestra app</h2>
+      <p>Descubre nuevas reseñas y comparte tus experiencias.</p>
+      <div class="descarga">
+        <img src="IMAGENES/store1.png" alt="">
+        <img src="IMAGENES/store2.png" alt="">
+      </div>
     </div>
-
     <div class="app-img">
-        <img src="IMAGENES/IMG_0099-Photoroom.png" alt="">
-
+      <img src="IMAGENES/IMG_0099-Photoroom.png" alt="">
     </div>
+  </section>
 
-   </section>
-
-   <footer class="footer">
-
+  <footer class="footer">
     <div class="footer-content container">
-        <div class="link">
-            <h3>Loren</h3>
-            <ul>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-            </ul>
-
+      <div class="link">
+        <h3>Game Tracker</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+        </ul>
+      </div>
+      <div class="link">
+        <h3>Comunidad</h3>
+        <ul>
+          <li><a href="#">Foros</a></li>
+          <li><a href="#">Eventos</a></li>
+        </ul>
+      </div>
+      <div class="link">
+        <h3>Soporte</h3>
+        <ul>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+      </div>
+      <div class="link">
+        <h3>Descarga</h3>
+        <div class="descarga">
+          <img src="IMAGENES/store1.png" alt="">
+          <img src="IMAGENES/store2.png" alt="">
         </div>
-
-         <div class="link">
-            <h3>Loren</h3>
-            <ul>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-            </ul>
-
-        </div>
-
-         <div class="link">
-            <h3>Loren</h3>
-            <ul>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-            </ul>
-
-        </div>
-
-         <div class="link">
-            <h3>Loren</h3>
-            <ul>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-                <li><a href="#">Loren</a></li>
-            </ul>
-
-        </div>
-
-         <div class="link">
-            <h3>Loren</h3>
-             <div class="descarga">
-            <img src="IMAGENES/store1.png" alt="">
-            <img src="IMAGENES/store2.png" alt="">
-        </div>
-        </div>
-
+      </div>
     </div>
+  </footer>
 
-   </footer>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
